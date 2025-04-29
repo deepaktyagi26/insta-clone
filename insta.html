@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="insta.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Left Menu -->
+        <div class="menu flex-column">
+            <div class="flex-row label-wrapper">
+                <img src="https://up.yimg.com/ib/th?id=OIP.aWhpAoFdTKWAQNIb_18bZwHaHL&pid=Api&rs=1&c=1&qlt=95&w=124&h=120" 
+                    alt="Instagram Logo" style="width: 100%;">
+            </div>
+
+            <div class="profile-section">
+                <div class="profile-img" style="background: lightgray; border-radius: 50%; width: 80px; height: 80px;"></div>
+                <div class="profile-info">
+                    <h2 class="name">Shubhi</h2>
+                    <h3 class="city">India</h3>
+                    <div class="numbers flex-row">
+                        <div class="post">
+                            <p>Posts</p>
+                            <div class="post-num">116</div>
+                        </div>
+                        <div class="post">
+                            <p>Followers</p>
+                            <div class="post-num">48m</div>
+                        </div>
+                        <div class="post">
+                            <p>Following</p>
+                            <div class="post-num">48m</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="menu-elements">
+                <div class="icons">
+                    <i class="fa-solid fa-house"></i>
+                    <div>Feed</div>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-compass"></i>
+                    <div>Explore</div>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <div>Trending Tags</div>
+                </div>
+                <div class="icons">
+                    <i class="fa-regular fa-bell"></i>
+                    <div>Notifications</div>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-gear"></i>
+                    <div>Settings</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Page Section -->
+        <div class="right-page">
+            <!-- Top Navigation Bar -->
+            <div class="top-bar flex-row">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search" aria-label="Search">
+                    <img src="https://i.ibb.co/sqFgRq8/search.png" alt="Search Icon" style="width: 20px;">
+                    <img src="https://i.ibb.co/HNx8Xty/microphone.png" alt="Microphone Icon" style="width: 20px;">
+                </div>
+                <div class="post-new">
+                    <button>Create New Post</button>
+                    <img src="https://i.ibb.co/0YG23j8/plus-symbol.png" alt="Add Icon" style="width: 20px;">
+                </div>
+                <div class="icons-right">
+                    <img src="https://i.ibb.co/6ZwMVGp/email.png" alt="Email Icon" style="width: 20px;">
+                    <img src="https://i.ibb.co/K91ZTyF/heart.png" alt="Heart Icon" style="width: 20px;">
+                    <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?auto=format&fit=crop&w=600&q=60" 
+                        alt="User Profile" style="width: 40px; height: 40px; border-radius: 50%;">
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Featured Stories -->
+            <div class="content-section">
+                <h2>Featured Stories</h2>
+                <div class="gallery-wrapper">
+                    <img src="https://images.unsplash.com/photo-1562447279-69402cb4587d?auto=format&fit=crop&w=600&q=60" 
+                        alt="Story of a scenic view">
+                    <img src="https://images.unsplash.com/photo-1495954484750-af469f2f9be5?auto=format&fit=crop&w=600&q=60" 
+                        alt="Story of a peaceful lake">
+                    <img src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=600&q=60" 
+                        alt="Story of a snowy mountain">
+                </div>
+            </div>
+
+            <!-- Latest Feed -->
+            <div class="content-section">
+                <h2>Latest Feed</h2>
+                <div class="gallery-wrapper">
+                    <img src="https://images.unsplash.com/photo-1426543881949-cbd9a76740a4?auto=format&fit=crop&w=600&q=60" 
+                        alt="Feed image of a forest">
+                    <img src="https://images.unsplash.com/photo-1532347922424-c652d9b7208e?auto=format&fit=crop&w=600&q=60" 
+                        alt="Feed image of a beach">
+                    <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?auto=format&fit=crop&w=600&q=60" 
+                        alt="Feed image of a cityscape">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar for User Info -->
+        <div class="right-sidebar">
+            <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?auto=format&fit=crop&w=600&q=60" 
+                alt="User profile Benjamin" style="width: 100%; height: auto;">
+            <h2>BENJAMIN HARDMAN</h2>
+            <div class="follows">
+                <div>Photos: <span>882</span></div>
+                <div>Followers: <span>527k</span></div>
+            </div>
+            <p>
+                Benjamin is a freelance photographer in Iceland. 
+                Interested in UI development and design, Benjamin embarked on his photographic journey 
+                five years ago in an Arctic winter climate... 
+                <span>Read more</span>
+            </p>
+            <div class="user-info">
+                <p>Location: Based in Iceland</p>
+                <p>Profession: Photographer & Developer</p>
+            </div>
+        </div>
+    </div>
+    <script src="insta.js"></script>
+</body>
+</html>
